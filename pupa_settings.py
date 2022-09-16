@@ -24,6 +24,7 @@ class OCDClient(DjangoClient):
 
         return super().send(**kwargs)
 
+STATIC_ROOT = '/tmp'
 DATABASE_URL = os.environ.get('DATABASE_URL', 'postgis://postgres:@localhost:32005/opencivicdata')
 
 INSTALLED_APPS = (
