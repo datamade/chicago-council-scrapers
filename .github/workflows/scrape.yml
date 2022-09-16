@@ -4,6 +4,9 @@ name: Scrape
 
 # Controls when the workflow will run
 on:
+  
+  schedule:
+    - cron:  '15 4 * * *'   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -29,4 +32,4 @@ jobs:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: pupa update chicago events window=0.05
+        run: pupa update chicago
