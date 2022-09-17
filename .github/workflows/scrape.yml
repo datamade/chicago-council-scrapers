@@ -44,7 +44,7 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_email: ${{ secrets.HEROKU_ACCOUNT }}
           heroku_app_name: ${{ secrets.HEROKU_APP }}
-          command: python manage.py update_index
+          command: python manage.py update_index --batch-size=50 --age=1
 
       - name: keepalive
         uses: gautamkrishnar/keepalive-workflow@v1        
