@@ -35,7 +35,7 @@ jobs:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: pupa update chicago
+        run: pupa update chicago --window=90
 
       - name: update search index
         uses: michcio1234/heroku-run@0.1.1
