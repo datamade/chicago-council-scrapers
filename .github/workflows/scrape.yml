@@ -17,6 +17,9 @@ on:
         - bills
         - events
         - people
+      window:
+        description: How many days to scrape?
+        type: string
 
 concurrency:
   group: chicago-scraper
@@ -38,12 +41,22 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: run scraper
+      - name: run scraper without window
+        if: ${{ !inputs.window }}
         env:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: pupa update chicago ${{ inputs.tags }}
+        run: pupa update chicago ${{ inputs.specific_scraper }} 
+        
+      - name: run scraper with window
+        if: ${{ inputs.window }}
+        env:
+          DJANGO_SETTINGS_MODULE: pupa.settings
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
+        run: pupa update chicago ${{ inputs.specific_scraper }} window ${{ inputs.window }}
+        
 
       - name: update search index
         uses: michcio1234/heroku-run@0.1.1
