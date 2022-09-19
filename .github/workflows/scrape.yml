@@ -55,7 +55,7 @@ jobs:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: pupa update chicago ${{ inputs.specific_scraper }} window ${{ inputs.window }}
+        run: pupa update chicago ${{ inputs.specific_scraper }} window=${{ inputs.window }}
         
 
       - name: update search index
