@@ -9,6 +9,14 @@ on:
     - cron:  '15 4 * * *'   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      specific_scraper:
+        type: choice
+        description: Which scraper to run?
+        options: 
+        - bills
+        - events
+        - people
 
 concurrency:
   group: chicago-scraper
