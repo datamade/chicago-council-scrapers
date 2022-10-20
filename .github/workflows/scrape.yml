@@ -80,10 +80,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: install dependencies
-        run: pip install db-to-sqlite
+        run: pip install https://github.com/sgraaf/db-to-sqlite/archive/refs/heads/main.zip[postgresql]
       - name: export
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: |
-          db-to-sqlite $(echo $DATABASE_URL) chicago_council.db 
+          db-to-sqlite $(echo $DATABASE_URL) chicago_council.db --table-name-pattern opencividata_*
 
