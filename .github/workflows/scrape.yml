@@ -85,5 +85,5 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: |
-          db-to-sqlite $(echo $DATABASE_URL) chicago_council.db --table-name-pattern opencividata_*
+          db-to-sqlite $(echo $DATABASE_URL) chicago_council.db --table-name-pattern opencivicdata_*
 
