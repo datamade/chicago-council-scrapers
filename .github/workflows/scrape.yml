@@ -80,7 +80,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: install dependencies
-        run: pip install "db-to-sqlite @ https://github.com/sgraaf/db-to-sqlite/archive/refs/heads/main.zip"
+        run: pip install "db-to-sqlite[postgresl] @ https://github.com/sgraaf/db-to-sqlite/archive/refs/heads/main.zip"
       - name: export
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
