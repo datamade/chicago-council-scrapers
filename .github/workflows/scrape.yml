@@ -86,4 +86,14 @@ jobs:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: |
           db-to-sqlite $(echo $DATABASE_URL) chicago_council.db --table-name-pattern opencivicdata_*
-
+          zip chicago_council.db.zip chicago_council.db
+      - name: Push data
+        uses: WebFreak001/deploy-nightly@v1.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # automatically provided by github actions
+        with:
+          upload_url: https://uploads.github.com/repos/datamade/chicago-council-scrapers/releases/80533645/assets{?name,label}
+          release_id: 80533645 # same as above (id can just be taken out the upload_url, it's used to find old releases)
+          asset_path: ./chicago_council.db.zip # path to archive to upload
+          asset_name: chicago_council.db.zip # name to upload the release as, use $$ to insert date (YYYYMMDD) and 6 letter commit hash
+          asset_content_type: application/zip # required by GitHub API
