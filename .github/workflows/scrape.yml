@@ -86,6 +86,7 @@ jobs:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: |
           db-to-sqlite $(echo $DATABASE_URL) chicago_council.db --table-name-pattern opencivicdata_*
+          cat scripts/rename.sql | sqlite3 chicago_council.db | sqlite3 chicago_council.db
           zip chicago_council.db.zip chicago_council.db
       - name: Push data
         uses: WebFreak001/deploy-nightly@v1.1.0
