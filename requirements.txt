@@ -2,5 +2,6 @@ django>=2.2,<2.3
 # Better handling for loading divisions from specified CSV
 https://github.com/opencivicdata/python-opencivicdata/archive/master.zip
 https://github.com/opencivicdata/scrapers-us-municipal/archive/refs/heads/chicago_comprehensive.zip
+https://github.com/jamesturk/scrapelib.git
 django-councilmatic==2.6.1
 raven==6.10
