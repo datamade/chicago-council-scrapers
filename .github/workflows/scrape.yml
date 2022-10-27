@@ -62,7 +62,7 @@ jobs:
         uses: gautamkrishnar/keepalive-workflow@v1
   index:
     runs-on: ubuntu-latest
-    # needs: scrape
+    needs: scrape
     steps:
       - name: update search index
         uses: michcio1234/heroku-run@0.1.1
