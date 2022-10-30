@@ -5,8 +5,8 @@ name: Scrape
 # Controls when the workflow will run
 on:
   
-  schedule:
-    - cron:  '15 4 * * *'   
+  #schedule:
+  #  - cron:  '15 4 * * *'   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
@@ -37,6 +37,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: install dependencies
         run: |
+          sudo apt-get update
           sudo apt-get install -y libgdal-dev
           pip install --upgrade pip
           pip install -r requirements.txt
@@ -47,7 +48,7 @@ jobs:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: pupa update chicago ${{ inputs.specific_scraper }} 
+        run: pupa update chicago ${{ inputs.specific_scraper }} --rpm=0
         
       - name: run scraper with window
         if: ${{ inputs.window }}
@@ -55,7 +56,7 @@ jobs:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: pupa update chicago ${{ inputs.specific_scraper }} window=${{ inputs.window }}
+        run: pupa update chicago ${{ inputs.specific_scraper }} window=${{ inputs.window }} --rpm=0
         
 
       - name: keepalive
