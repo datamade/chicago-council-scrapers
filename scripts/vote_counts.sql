@@ -1,8 +1,6 @@
 BEGIN;
 
-DROP
-FROM opencividata_votecount;
-
+DELETE FROM opencivicdata_votecount;
 
 INSERT INTO opencivicdata_votecount
 SELECT gen_random_uuid(),
