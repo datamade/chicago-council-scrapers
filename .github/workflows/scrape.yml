@@ -58,7 +58,10 @@ jobs:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: pupa update chicago ${{ inputs.specific_scraper }} window=${{ inputs.window }} --rpm=0
         
-
+      - name: update vote count
+        env:
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
+        run: psql $(echo $(DATABASE_URL) -f scripts/vote_counts.sql
       - name: keepalive
         uses: gautamkrishnar/keepalive-workflow@v1
   index:
