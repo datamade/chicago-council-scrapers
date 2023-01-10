@@ -74,7 +74,7 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_email: ${{ secrets.HEROKU_ACCOUNT }}
           heroku_app_name: ${{ secrets.HEROKU_APP }}
-          command: python manage.py update_index --batch-size=50 --age=1
+          command: python manage.py update_index --batch-size=50 --age=1 && python manage.py populate_person_statistics
 
   export:
     # The type of runner that the job will run on
