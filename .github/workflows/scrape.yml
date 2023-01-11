@@ -68,7 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: scrape
     steps:
-      - name: update search index
+      - name: update search index and populate stats
         uses: michcio1234/heroku-run@0.1.1
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
