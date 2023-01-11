@@ -16,5 +16,5 @@ WHERE A.role = B.role
     AND A.person_name = B.person_name
     AND A.organization_id = B.organization_id
     AND A.start_date > B.start_date
-    AND A.end_date <= B.start_date;
+    AND A.end_date <= B.end_date;
 
