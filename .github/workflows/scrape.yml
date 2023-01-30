@@ -104,7 +104,7 @@ jobs:
       - name: install dependencies
         run: |
           pip install "db-to-sqlite[postgresql] @ https://github.com/sgraaf/db-to-sqlite/archive/refs/heads/main.zip"
-          pip install sqlalchemy<2.0
+          pip install "sqlalchemy<2.0"
       - name: export
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
