@@ -102,7 +102,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: install dependencies
-        run: pip install "db-to-sqlite[postgresql] @ https://github.com/sgraaf/db-to-sqlite/archive/refs/heads/main.zip"
+        run: |
+          pip install "db-to-sqlite[postgresql] @ https://github.com/sgraaf/db-to-sqlite/archive/refs/heads/main.zip"
+          pip install sqlalchemy<2.0
       - name: export
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
