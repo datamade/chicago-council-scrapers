@@ -1,9 +1,7 @@
 # Better handling for loading divisions from specified CSV
-https://github.com/opencivicdata/python-opencivicdata/archive/488b8d6268dc819947b29abfca976ee4d0da15b5.zip
 https://github.com/opencivicdata/scrapers-us-municipal/archive/refs/heads/chicago_comprehensive.zip
 https://github.com/datamade/django-councilmatic/archive/refs/heads/resilient_slug.zip
 https://github.com/jamesturk/scrapelib/archive/refs/heads/main.zip
 raven==6.10
-https://github.com/opencivicdata/python-legistar-scraper/archive/refs/heads/event_fixes.zip
-https://github.com/opencivicdata/pupa/archive/refs/heads/related_entity_fixes.zip
+https://github.com/opencivicdata/pupa/archive/refs/heads/forest.zip
 sqlalchemy<2.0
