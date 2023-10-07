@@ -6,7 +6,8 @@ name: Scrape
 on:
   
   schedule:
-    - cron:  '15 4 * * *'   
+    - cron: '15 4 * * *'
+    - cron: '0 0 * * 6'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
@@ -49,6 +50,14 @@ jobs:
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: pupa update chicago ${{ inputs.specific_scraper }} --rpm=0
+
+      - name: weekly big scrape
+        if: ${{ !inputs.window }} && github.event.schedule != '0 0 * * 6'
+        env:
+          DJANGO_SETTINGS_MODULE: pupa.settings
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
+        run: pupa update chicago ${{ inputs.specific_scraper }} window=365 --rpm=0
         
       - name: run scraper with window
         if: ${{ inputs.window }}
