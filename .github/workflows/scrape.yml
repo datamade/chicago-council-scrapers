@@ -44,7 +44,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: run scraper without window
-        if: ${{ !inputs.window }} && github.event.schedule != '0 0 * * 6'
+        if: not ${{ inputs.window }} && github.event.schedule != '0 0 * * 6'
         env:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
@@ -52,7 +52,7 @@ jobs:
         run: pupa update chicago ${{ inputs.specific_scraper }} --rpm=0
 
       - name: weekly big scrape
-        if: ${{ !inputs.window }} && github.event.schedule == '0 0 * * 6'
+        if: not ${{ inputs.window }} && github.event.schedule == '0 0 * * 6'
         env:
           DJANGO_SETTINGS_MODULE: pupa.settings
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
