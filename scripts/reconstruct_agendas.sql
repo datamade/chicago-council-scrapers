@@ -30,8 +30,7 @@ FROM
     LEFT JOIN opencivicdata_eventagendaitem ON opencivicdata_event.id = opencivicdata_eventagendaitem.event_id
 WHERE
     opencivicdata_eventagendaitem.id IS NULL
-    AND substr(start_date, 1, 10) = date
-LIMIT 10;
+    AND substr(start_date, 1, 10) = date;
        
 INSERT INTO opencivicdata_eventrelatedentity
 SELECT
@@ -69,5 +68,5 @@ WHERE
         WHERE
             extras ->> 'inferred' = 'true');
 
-ROLLBACK;
+END;
 
