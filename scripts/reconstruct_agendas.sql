@@ -58,7 +58,7 @@ WHERE
 UPDATE
     opencivicdata_event
 SET
-    extras = jsonb_set(extras, '{inferred}', 'true'::jsonb)
+    extras = jsonb_set(extras, '{inferred_agenda}', 'true'::jsonb)
 WHERE
     opencivicdata_event.id IN (
         SELECT
