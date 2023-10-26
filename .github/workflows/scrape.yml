@@ -73,6 +73,10 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: psql $(echo $DATABASE_URL) -f scripts/vote_counts.sql
+      - name: reconstruct agendas
+        env:
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
+        run: psql $(echo $DATABASE_URL) -f scripts/reconstruct_agendas.sql
       - name: merge terms
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
