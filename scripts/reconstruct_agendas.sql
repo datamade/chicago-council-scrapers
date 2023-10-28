@@ -1,8 +1,5 @@
 BEGIN;
 
-DELETE FROM opencivicdata_eventagendaitem
-WHERE extras ->> 'inferred' = 'true';
-
 DELETE FROM opencivicdata_eventrelatedentity
 WHERE agenda_item_id IN (
         SELECT
@@ -11,6 +8,9 @@ WHERE agenda_item_id IN (
             opencivicdata_eventagendaitem
         WHERE
             extras ->> 'inferred' = 'true');
+
+DELETE FROM opencivicdata_eventagendaitem
+WHERE extras ->> 'inferred' = 'true';
 
 INSERT INTO opencivicdata_eventagendaitem
 SELECT
