@@ -1,0 +1,33 @@
+name: Quality Assistance
+permissions:
+  contents: write
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: make
+        run: make -B
+        env:
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'update data'
