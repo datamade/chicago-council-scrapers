@@ -1,6 +1,6 @@
 
 data_issues.xlsx : missing_organization_on_actions.csv missing_bill_text_pdfs.csv bad_introductions.csv dupe_actions.csv bad_action_date.csv bad_agenda_action.csv
-	foo
+	python scripts/to_excel.py $^ $@
 
 missing_organization_on_actions.csv :
 	psql $$DATABASE_URL -f scripts/missing_organizations.sql > $@
