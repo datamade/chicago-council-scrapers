@@ -1,7 +1,6 @@
 identifier,title,introduction_date,earliest_action_date,matter_id,problem
 A2023-0001212,Appointment of Annette Guzman as Budget Director,2023-06-21,2023-05-24,AAC16AEC-3610-EE11-8F6C-001DD806D641,introduction after other action
 CL2023-0001225,Various small claims,2023-06-21,2023-06-14,CE717A72-4410-EE11-8F6C-001DD806D3F2,introduction after other action
-CL2023-0003019,"Damage to vehicle claim for Shefer, Yuriy",,2023-07-19,AB0BD965-2527-EE11-9965-001DD804E144,introduction after other action
 CL2023-0003511,"Damage to property claim for Flores, Lissette",2023-07-19,2022-10-26,D08E5A0D-A845-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003517,"Damage to vehicle claim for Acosta, Maria L.",2023-07-19,2022-04-27,7E7AFF4A-AB45-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003518,"Damage to vehicle claim for Zaki, Aldawoud",2023-07-19,2023-04-19,EFD53D00-AC45-EE11-BE6D-001DD80974AF,introduction after other action
@@ -236,8 +235,8 @@ CL2023-0003817,"Damage to vehicle claim for Leno, David J.",2023-07-19,2023-03-1
 CL2023-0003818,"Damage to vehicle - pothole claim for Lodhia, Serina",2023-07-19,2022-07-20,45A6CDE8-AD46-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0004116,Various small claims,2023-09-14,2023-09-11,93EE9C00-9851-EE11-BE6E-001DD8097F7D,introduction after other action
 CL2023-0004911,Various small claims,2023-10-04,2023-10-02,49D692AC-5C61-EE11-BE6E-001DD80520D0,introduction after other action
+CL2023-0005636,Various small claims,2023-11-01,2023-10-31,0CB9A8BD-2677-EE11-9AE5-001DD804D22B,introduction after other action
 O2023-0001204,Amendment of Municipal Code Section 4-60-023 (49.29) to allow additional package goods licenses on portion(s) of N Clark St,2023-06-21,2023-06-15,2C67FBFB-8C0F-EE11-8F6C-001DD806D641,introduction after other action
-O2023-0001223,"Approval of plat of Encuentro Square Resubdivision in area bounded by W Cortland St, W Bloomingdale Ave, N Ridgeway Ave and railroad",,2023-06-21,A18C3803-4310-EE11-8F6C-001DD806D641,introduction after other action
 O2023-0001294,"Restructuring agreement with Renaissance Partners Limited Partnership, Renaissance Partners Corporation for additional financial assistance or modification through multi-family grant and Tax Increment Financing (TIF) funds for repairs at 3757-3763 S Wabash Ave",2023-06-21,2023-04-19,FE8AFD32-6F10-EE11-8F6C-001DD806D2E1,introduction after other action
 O2023-0001296,"Redevelopment agreement with DL3 Thrive Exchange LIHTC South LLC to acquire property generally located at southeast corner of E 79th St and S Exchange Ave for development of low-income residential, rental units, commercial space and proposed federally-funded health center",2023-06-21,2023-04-19,71E084AF-7010-EE11-8F6C-001DD806D2E1,introduction after other action
 O2023-0001297,"Issuance of multi-family bonds or notes to New City Redevelopment Limited Partnership for acquisition of property at 1515 W 47th St and 1635-1641 W 47th St for construction of low-income housing, with technology and business support hub",2023-06-21,2023-05-24,A674A8F6-7210-EE11-8F6C-001DD806D2E1,introduction after other action
@@ -412,10 +411,7 @@ O2023-0004199,"Traffic sign(s)/signal(s) at W Armitage Ave (south side) from poi
 O2023-0004206,Speed limitation at W Wellington Ave from N Sheffield Ave to N Halsted St - 20 mph,2023-09-14,2023-09-06,79E552C9-1353-EE11-BE6E-001DD8097692,introduction after other action
 O2023-0004208,Vehicle weight limitation at N Campbell Ave from W Addison St to W Bradley Pl - 5 tons,2023-09-14,2023-09-06,136F45AA-1453-EE11-BE6E-001DD8097692,introduction after other action
 O2023-0004247,"Time fixed for next City Council Meeting October 4, 2023 at 10:00 A.M., Council Chamber",2023-09-14,2023-09-13,759D4D42-3E53-EE11-BE6E-001DD8097665,introduction after other action
-O2023-0004297,Handicapped Parking Permit No. 131713,,2023-09-14,A1CAE74F-FF53-EE11-BE6E-001DD8097692,introduction after other action
 O2023-0004373,Handicapped Parking Permit No. 131181,2023-09-14,2023-09-13,4531D0B0-4A56-EE11-BE6E-001DD8098482,introduction after other action
-O2023-0004398,Handicapped Parking Permit No. 130465,,2023-09-14,78C57008-5756-EE11-BE6E-001DD8098482,introduction after other action
-O2023-0004401,Handicapped Parking Permit No. DH39895,,2023-09-14,F85C319A-5956-EE11-BE6E-001DD809854D,introduction after other action
 O2023-0004426,Zoning Reclassification Map No. 14-I at 1938-1942 W 63rd St - App No. 22129,2023-03-15,2021-09-14,A8B83B94-7056-EE11-BE6E-001DD809854D,introduction after other action
 O2023-0005309,No Parking Tow Zone at E 74th St (east side) from 30 ft. north of E Balbo Dr to 20 ft. north,2023-10-16,2023-10-05,9A804FD3-636C-EE11-8DEF-001DD804E2C5,introduction after other action
 O2023-0005310,No Parking Standing Zone at 4747-4749 N Sawyer Ave,2023-10-16,2023-10-05,A90072D1-646C-EE11-8DEF-001DD804E2C5,introduction after other action
@@ -539,7 +535,7 @@ Or2023-0001224,Payment of various small claims,2023-06-21,2023-06-14,0C7995DC-43
 Or2023-0001331,"Settlement agreement regarding case of Lana Triplett v. Adam Corona and City of Chicago, 2019 L 7771 (Cir. Ct. of Cook County, Law Division)",2023-06-21,2023-06-14,5E49BAE3-7B10-EE11-8F6C-001DD806D2E1,introduction after other action
 Or2023-0001335,"Settlement agreement regarding case of Joshua Habasek-Bonelli v. City of Chicago, No. 22 cv 3668",2023-06-21,2023-06-14,48E06C8B-7C10-EE11-8F6C-001DD806D2E1,introduction after other action
 Or2023-0001338,"Settlement agreement regarding case of Angela Williams, Independent Administrator of the Estate of Sharell Brown, Deceased v. City of Chicago, Officer Robert Rhodes, and Officer Joseph Lisciandrello, No. 21 L 11688",2023-06-21,2023-06-14,C0230E17-7D10-EE11-8F6C-001DD806D2E1,introduction after other action
-Or2023-0001343,"Settlement agreement regarding case of Arthur Brown v. City of Chicago, No. 18-cv-7064 (N.D. Ill.)",,2023-06-14,FA485C80-7D10-EE11-8F6C-001DD806D2E1,introduction after other action
+Or2023-0001343,"Settlement agreement regarding case of Arthur Brown v. City of Chicago, No. 18-cv-7064 (N.D. Ill.)",2023-06-21,2023-06-14,FA485C80-7D10-EE11-8F6C-001DD806D2E1,introduction after other action
 Or2023-0001992,Issuance of permits for sign(s)/signboard(s) at 633 W North Ave - Permit No. 101018182,2023-06-21,2023-06-20,028572EE-4411-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0001995,Issuance of permits for sign(s)/signboard(s) at 1319 S State St - Permit No. 101013235,2023-06-21,2023-05-24,12456DC7-4511-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0001999,Issuance of permits for sign(s)/signboard(s) at 2808 S Michigan Ave - Permit No. 101015553,2023-06-21,2023-05-24,86491E8B-4611-EE11-8F6C-001DD806D3F2,introduction after other action
@@ -554,7 +550,7 @@ Or2023-0002008,Issuance of permits for sign(s)/signboard(s) at 1500 N Clybourn A
 Or2023-0002009,Issuance of permits for sign(s)/signboard(s) at 1242 W Washington Blvd - Permit No. 101011417,2023-06-21,2023-05-31,CE1B84FF-4811-EE11-8F6C-001DD806D641,introduction after other action
 Or2023-0002011,Issuance of permits for sign(s)/signboard(s) at 1500 N Clybourn Ave - Permit No. 100999531,2023-06-21,2023-05-24,EA310472-4911-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0002012,Issuance of permits for sign(s)/signboard(s) at 1242 W Washington Blvd - Permit No. 101011412,2023-06-21,2023-05-31,7A361A7A-4911-EE11-8F6C-001DD806D641,introduction after other action
-Or2023-0002013,Issuance of permits for sign(s)/signboard(s) at 1500 N Clybourn Ave - Permit No. 100999530,,2023-05-24,FD499EE0-4911-EE11-8F6C-001DD806D3F2,introduction after other action
+Or2023-0002013,Issuance of permits for sign(s)/signboard(s) at 1500 N Clybourn Ave - Permit No. 100999530,2023-06-21,2023-05-24,FD499EE0-4911-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0002014,Issuance of permits for sign(s)/signboard(s) at 1242 W Washington Blvd - Permit No. 101011411,2023-06-21,2023-05-31,AB0833E9-4911-EE11-8F6C-001DD806D641,introduction after other action
 Or2023-0002016,Issuance of permits for sign(s)/signboard(s) at 1129 N Wells St - Permit No. 101010394,2023-06-21,2023-05-24,6A5A1651-4A11-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0002017,Issuance of permits for sign(s)/signboard(s) at 516 S Loomis St - Permit No. 101006921,2023-06-21,2023-06-20,C5CDEC5D-4A11-EE11-8F6C-001DD806D641,introduction after other action
@@ -611,6 +607,9 @@ Or2023-0005307,Traffic sign(s)/signal(s) at W Washington Blvd and N Lotus Ave - 
 Or2023-0005308,Traffic direction at W Wolfram St from Cicero Ave. to N. Long Ave - One-Way westerly - amend,2023-10-16,2023-10-05,0273E096-5E6C-EE11-8DEF-001DD804E2C5,introduction after other action
 Or2023-0005353,Residential permit parking at 5315-5326 S Lorel Ave - Zone 2412,2023-10-16,2023-10-05,098B37CF-B66D-EE11-8DEF-001DD804E693,introduction after other action
 Or2023-0005355,Residential permit parking at 2024-2110 N Parkside Ave - even side,2023-10-16,2023-10-05,B8E6830C-B86D-EE11-8DEF-001DD804E693,introduction after other action
+Or2023-0005635,Payment of various small claims,2023-11-01,2023-10-31,F39277D5-2577-EE11-9AE5-001DD804D22B,introduction after other action
+Or2023-0005637,"Tag day permit(s) for Ronald McDonald House Charities of Chicagoland and Northwest Indiana; and Planned Parenthood Federation of America, Inc.",2023-11-01,2023-10-31,12EFAE74-2777-EE11-9AE5-001DD804D22B,introduction after other action
+Or2023-0005639,"Settlement agreement regarding case of Brent G. Hampton, Jr. as Administrator of the Estate of Michelle Ewing, deceased, and Dahnyeekah Voker, as Mother and Next Friend of Ellyana Hampton-Voker v. City of Chicago, cited as 2019 L 2879 (Cir. Ct. Cook County, Law Division)",2023-11-01,2023-10-31,91BF76F7-2877-EE11-9AE5-001DD804D22B,introduction after other action
 R2023-0003087,"Creation of subcommittee on Youth Employment, and appointment of its Chair, Vice-Chair and members",2023-07-19,2023-07-17,80FAD1BA-EC2B-EE11-9965-001DD809C9DD,introduction after other action
 R2023-0004907,"Establishment of permanent Subcommittee of Revenue under Committee on Finance and appointment of Chair, Vice-Chair and members",2023-10-04,2023-10-02,EFDC9827-5261-EE11-BE6E-001DD8052E29,introduction after other action
 SO2023-0001865,Zoning Reclassification Map No. 1-G at 1300 W Carroll Ave - App No. 20866,2023-06-21,2021-11-17,22659CA3-1F11-EE11-8F6C-001DD8094692,introduction after other action
