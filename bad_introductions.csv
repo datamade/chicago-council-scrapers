@@ -236,6 +236,7 @@ CL2023-0003818,"Damage to vehicle - pothole claim for Lodhia, Serina",2023-07-19
 CL2023-0004116,Various small claims,2023-09-14,2023-09-11,93EE9C00-9851-EE11-BE6E-001DD8097F7D,introduction after other action
 CL2023-0004911,Various small claims,2023-10-04,2023-10-02,49D692AC-5C61-EE11-BE6E-001DD80520D0,introduction after other action
 CL2023-0005636,Various small claims,2023-11-01,2023-10-31,0CB9A8BD-2677-EE11-9AE5-001DD804D22B,introduction after other action
+CL2023-0005924,Various small claims,2023-11-15,2023-11-14,33443849-2483-EE11-8178-001DD83091CA,introduction after other action
 O2023-0001204,Amendment of Municipal Code Section 4-60-023 (49.29) to allow additional package goods licenses on portion(s) of N Clark St,2023-06-21,2023-06-15,2C67FBFB-8C0F-EE11-8F6C-001DD806D641,introduction after other action
 O2023-0001294,"Restructuring agreement with Renaissance Partners Limited Partnership, Renaissance Partners Corporation for additional financial assistance or modification through multi-family grant and Tax Increment Financing (TIF) funds for repairs at 3757-3763 S Wabash Ave",2023-06-21,2023-04-19,FE8AFD32-6F10-EE11-8F6C-001DD806D2E1,introduction after other action
 O2023-0001296,"Redevelopment agreement with DL3 Thrive Exchange LIHTC South LLC to acquire property generally located at southeast corner of E 79th St and S Exchange Ave for development of low-income residential, rental units, commercial space and proposed federally-funded health center",2023-06-21,2023-04-19,71E084AF-7010-EE11-8F6C-001DD806D2E1,introduction after other action
@@ -427,7 +428,6 @@ O2023-0005380,Handicapped Parking Permit No. 130335,2023-10-05,2023-04-19,E1AE5B
 O2023-0005382,Handicapped Parking Permit No. 130000,2023-10-05,2023-04-19,37760E0A-C56D-EE11-8DEF-001DD804ECCD,introduction after other action
 O2023-0005384,Handicapped Parking Permit No. 130769,2023-10-05,2023-04-19,E4A6CF72-C56D-EE11-8DEF-001DD804ECCD,introduction after other action
 O2023-0005385,Handicapped Parking Permit No. 130936,2023-10-05,2023-04-19,9F02CBDA-C56D-EE11-8DEF-001DD804ECCD,introduction after other action
-O2023-0005387,Handicapped Parking Permit No. 130641,2023-10-05,2023-05-24,302C063B-C66D-EE11-8DEF-001DD804ECCD,introduction after other action
 O2023-0005389,Handicapped Parking Permit No. 123523,2023-10-05,2023-05-24,06E3B895-C66D-EE11-8DEF-001DD804ECCD,introduction after other action
 O2023-0005392,Handicapped Parking Permit No. 130332,2023-10-05,2023-05-24,4045B153-C76D-EE11-8DEF-001DD804ECCD,introduction after other action
 O2023-0005394,Handicapped Parking Permit No. 130769,2023-10-05,2023-05-24,5DD817BC-C76D-EE11-8DEF-001DD804ECCD,introduction after other action
@@ -531,6 +531,28 @@ O2023-0005504,Handicapped Parking Permit No. 127375,2023-10-05,2023-05-24,B3FDB6
 O2023-0005505,Handicapped Parking Permit No. 130716,2023-10-05,2023-05-24,AB8AB00B-966E-EE11-8DEF-001DD804EA26,introduction after other action
 O2023-0005506,Handicapped Parking Permit No. 131068,2023-10-05,2023-05-24,5C03CB5C-966E-EE11-8DEF-001DD804EA26,introduction after other action
 O2023-0005507,Handicapped Parking Permit No. 130986,2023-10-05,2023-05-24,F5E5DAB0-966E-EE11-8DEF-001DD804EA26,introduction after other action
+O2023-0005984,"Scope of services, budget and management agreement for Special Service Area No. 2, Belmont/Central",2023-11-15,2023-11-13,629C3205-F683-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005985,"Scope of services, budget and management agreement for Special Service Area No. 5, Commercial Avenue",2023-11-15,2023-11-13,7C47024D-F683-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005986,"Scope of services, budget and management agreement for Special Service Area No. 8, Greater Lakeview East",2023-11-15,2023-11-13,ABA7E16C-F683-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005987,"Scope of services, budget and management agreement for Special Service Area No. 17, Central Lakeview",2023-11-15,2023-11-13,AEE55EB5-F683-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005988,"Scope of services, budget and management agreement for Special Service Area No. 22, Clark Street-Andersonville",2023-11-15,2023-11-13,BBCF4AD9-F683-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005989,"Scope of services, budget and management agreement for Special Service Area No. 28-2014, Six Corners",2023-11-15,2023-11-13,C97C53FD-F683-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005990,"Scope of services, budget and management agreement for Special Service Area No. 29-2014, West Town",2023-11-15,2023-11-13,A4F97F27-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005991,"Scope of services, budget and management agreement for Special Service Area No. 33, Wicker Park/Bucktown",2023-11-15,2023-11-13,96AC7F45-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005992,"Scope of services, budget and management agreement for Special Service Area No. 42, 71st Street-Stony Island",2023-11-15,2023-11-13,CB5FA564-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005993,"Scope of services, budget and management agreement for Special Service Area No. 47, Cottage Grove",2023-11-15,2023-11-13,A98F8F88-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005994,"Scope of services, budget and management agreement for Special Service Area No. 48, Old Town",2023-11-15,2023-11-13,3ECC80AC-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005995,"Scope of services, budget and management agreement for Special Service Area No. 51, Chatham",2023-11-15,2023-11-13,765F67C4-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005996,"Scope of services, budget and management agreement for Special Service Area No. 52-2021, 51st Street",2023-11-15,2023-11-13,B0BC61E2-F783-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005997,"Scope of services, budget and management agreement for Special Service Area No. 63, West Humboldt Park",2023-11-15,2023-11-13,7912410E-F883-EE11-8178-001DD83091CA,introduction after other action
+O2023-0005998,"Scope of services, budget and management agreement for Special Service Area No. 72, Chicago Avenue Cultural Corridor",2023-11-15,2023-11-13,B5DFCB3E-F883-EE11-8178-001DD83091CA,introduction after other action
+O2023-0006000,"Scope of services, budget, amended 2023 budget and management agreement for Special Service Area No. 76, Michigan Avenue",2023-11-15,2023-11-13,6F5DECAB-FA83-EE11-8178-001DD83091CA,introduction after other action
+O2023-0006001,"Scope of services, budget and management agreement for Special Service Area No. 77, West Garfield Park",2023-11-15,2023-11-13,4516FAEE-FA83-EE11-8178-001DD83091CA,introduction after other action
+O2023-0006002,"Scope of services, budget and management agreement for Special Service Area No. 80, Englewood",2023-11-15,2023-11-13,B892764A-FB83-EE11-8178-001DD83091CA,introduction after other action
+O2023-0006037,"Extension of term, amendment of 2023 budget, 2023 tax levy, 2024 budget and related Service Provider Agreement for Special Service Area No. 18, North Halsted Street",2023-11-15,2023-11-13,BA66546C-5A85-EE11-8178-001DD830945B,introduction after other action
+O2023-0006038,"Enlargement of and 2023 tax levy, 2024 budget and Service Provider Agreement for Special Service Area No. 44, 103rd Street-Beverly",2023-11-15,2023-11-13,3124650D-5C85-EE11-8178-001DD830945B,introduction after other action
+O2023-0006040,"Establishment of, and 2023 tax levy and 2024 budget for Special Service Area No. 61-2023, Hyde Park",2023-11-15,2023-11-13,4D38C783-5E85-EE11-8178-001DD830945B,introduction after other action
+O2023-0006041,"Extension of term, 2023 tax levy, 2024 budget and Service Provider Agreement for Special Service Area No. 69, 95th/Ashland",2023-11-15,2023-11-13,B7D36752-5F85-EE11-8178-001DD830945B,introduction after other action
 Or2023-0001224,Payment of various small claims,2023-06-21,2023-06-14,0C7995DC-4310-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0001331,"Settlement agreement regarding case of Lana Triplett v. Adam Corona and City of Chicago, 2019 L 7771 (Cir. Ct. of Cook County, Law Division)",2023-06-21,2023-06-14,5E49BAE3-7B10-EE11-8F6C-001DD806D2E1,introduction after other action
 Or2023-0001335,"Settlement agreement regarding case of Joshua Habasek-Bonelli v. City of Chicago, No. 22 cv 3668",2023-06-21,2023-06-14,48E06C8B-7C10-EE11-8F6C-001DD806D2E1,introduction after other action
@@ -610,6 +632,8 @@ Or2023-0005355,Residential permit parking at 2024-2110 N Parkside Ave - even sid
 Or2023-0005635,Payment of various small claims,2023-11-01,2023-10-31,F39277D5-2577-EE11-9AE5-001DD804D22B,introduction after other action
 Or2023-0005637,"Tag day permit(s) for Ronald McDonald House Charities of Chicagoland and Northwest Indiana; and Planned Parenthood Federation of America, Inc.",2023-11-01,2023-10-31,12EFAE74-2777-EE11-9AE5-001DD804D22B,introduction after other action
 Or2023-0005639,"Settlement agreement regarding case of Brent G. Hampton, Jr. as Administrator of the Estate of Michelle Ewing, deceased, and Dahnyeekah Voker, as Mother and Next Friend of Ellyana Hampton-Voker v. City of Chicago, cited as 2019 L 2879 (Cir. Ct. Cook County, Law Division)",2023-11-01,2023-10-31,91BF76F7-2877-EE11-9AE5-001DD804D22B,introduction after other action
+Or2023-0005922,Payment of various small claims,2023-11-15,2023-11-14,59F820B1-2383-EE11-8178-001DD83091CA,introduction after other action
+Or2023-0005926,Tag day permit for The Nature Conservancy,2023-11-15,2023-11-14,62EDF2BC-2483-EE11-8178-001DD83091CA,introduction after other action
 R2023-0003087,"Creation of subcommittee on Youth Employment, and appointment of its Chair, Vice-Chair and members",2023-07-19,2023-07-17,80FAD1BA-EC2B-EE11-9965-001DD809C9DD,introduction after other action
 R2023-0004907,"Establishment of permanent Subcommittee of Revenue under Committee on Finance and appointment of Chair, Vice-Chair and members",2023-10-04,2023-10-02,EFDC9827-5261-EE11-BE6E-001DD8052E29,introduction after other action
 SO2023-0001865,Zoning Reclassification Map No. 1-G at 1300 W Carroll Ave - App No. 20866,2023-06-21,2021-11-17,22659CA3-1F11-EE11-8F6C-001DD8094692,introduction after other action
