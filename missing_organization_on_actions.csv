@@ -1,6 +1,6 @@
 identifier,title,action,date,matter_id
 A2023-0001282,"Appointment of Erick Valdez as member of Special Service Area No. 39, Brighton Park-Archer Heights Commission",Recommended to Pass,2023-09-12,20C2545B-6910-EE11-8F6C-001DD806D3F2
-F2023-0002698,"Funding Loan Notification of Multi-Family Housing Revenue Notes (Encuentro Square II Apartments), Series 2023A and 2023B",Placed on File,2023-07-19,DAE86AFF-ED1F-EE11-8F6C-001DD809B9F5
+F2023-0002698,"Funding loan notification of Multi-Family Housing Revenue Notes (Encuentro Square II Apartments), Series 2023A and 2023B",Placed on File,2023-07-19,DAE86AFF-ED1F-EE11-8F6C-001DD809B9F5
 O2023-0001052,Handicapped Parking Permit No. 131179,Substituted-Aggregated,2023-07-14,B6F60E9A-DB0A-EE11-8F6D-001DD809B7F1
 O2023-0001053,Handicapped Parking Permit No. 131222,Substituted-Aggregated,2023-07-14,E177A743-DD0A-EE11-8F6D-001DD809B965
 O2023-0001054,Handicapped Parking Permit No. 131655,Substituted-Aggregated,2023-07-14,A9C3E013-DE0A-EE11-8F6D-001DD809B965
@@ -25,7 +25,7 @@ O2023-0001369,Handicapped Parking Permit No. 92660 - remove,Substituted-Aggregat
 O2023-0001382,Handicapped Parking Permit No. 125654 - remove,Substituted-Aggregated,2023-06-14,104A7F84-8310-EE11-8F6C-001DD806D641
 O2023-0001386,Handicapped Parking Permit No. 121980 - remove,Substituted-Aggregated,2023-06-14,8DC9C9F7-8310-EE11-8F6C-001DD806D641
 O2023-0001387,Handicapped Parking Permit No. 113059 - remove,Substituted-Aggregated,2023-06-14,027D1E4D-8410-EE11-8F6C-001DD806D641
-O2023-0001455,Acquisition of property for roadway improvement project along S Burley Avenue from E 122nd Street to E 126th Pl; S Carondolet Ave from E 122nd St to E 126th Pl; and E 122nd St from South Ave O to S Caroldolet Ave and Norfolk Southern Railway Company grade crossing for North Point Redevelopment Project,Held in Committee,2023-06-14,6BCBBC19-8610-EE11-8F6C-001DD806D2E1
+O2023-0001455,Acquisition of property at S Burley Avenue from E 122nd Street to E 126th Pl; S Carondolet Ave from E 122nd St to E 126th Pl; and E 122nd St from South Ave O to S Caroldolet Ave and Norfolk Southern Railway Company grade crossing for roadway improvements associated with North Point Redevelopment Project,Held in Committee,2023-06-14,6BCBBC19-8610-EE11-8F6C-001DD806D2E1
 O2023-0001730,Handicapped permit parking at 5736 S Campbell Ave,Substituted-Aggregated,2023-06-13,94FF5107-0611-EE11-8F6C-001DD806D2E1
 O2023-0001731,Handicapped Permit Parking No. 130222 - amend,Substituted-Aggregated,2023-06-14,B17EC2A1-0611-EE11-8F6C-001DD806D2E1
 O2023-0001745,"Negotiated sale of vacant City-owned property at 1924 W 46th St to Harvest Food Group, Inc. and Harvest Yards LLC for relocation and expansion of frozen food processing and packaging facilities requiring public open space, environmental improvements, public street widening, and parcel remediation",Held in Committee,2023-06-14,14B8E40B-0F11-EE11-8F6C-001DD806D2E1
@@ -235,8 +235,8 @@ SO2023-0001865,Zoning Reclassification Map No. 1-G at 1300 W Carroll Ave - App N
 SO2023-0001866,"Zoning Reclassification Map No. 4-E at 45-79 E 18th St, 1801-1809 S Wabash Ave, 1800-1806 S Michigan Ave - App No. 21125",Substituted,2023-06-20,24659CA3-1F11-EE11-8F6C-001DD8094692
 SO2023-0001868,Zoning Reclassification Map No. 5-G at 1030-1050 W North Ave/1604-1624 N Kingsbury St - App No. 22043T1,Amended,2023-07-14,28659CA3-1F11-EE11-8F6C-001DD8094692
 SO2023-0001869,Zoning Reclassification Map No. 12-E at 5339-5353 S State St and 2-16 E 54th St - App No. 20951T1,Substituted,2023-07-14,2A659CA3-1F11-EE11-8F6C-001DD8094692
-SO2023-0001870,Zoning Reclassification Map No. 1-G at 357-359 N Green St - App No. 22103,Substituted,2023-07-14,2D659CA3-1F11-EE11-8F6C-001DD8094692
 SO2023-0001870,Zoning Reclassification Map No. 1-G at 357-359 N Green St - App No. 22103,Amended,2023-07-14,2D659CA3-1F11-EE11-8F6C-001DD8094692
+SO2023-0001870,Zoning Reclassification Map No. 1-G at 357-359 N Green St - App No. 22103,Substituted,2023-07-14,2D659CA3-1F11-EE11-8F6C-001DD8094692
 SO2023-0001871,"Zoning Reclassification Map No. 1-F at 320 N Jefferson St, 650 W Wayman St, 740 W Fulton Market and 331 N Halsted St - App No. 22104",Substituted,2023-07-14,2F659CA3-1F11-EE11-8F6C-001DD8094692
 SO2023-0001872,Zoning Reclassification Map No. 7-G at 1354 W Diversey Pkwy - App No. 22136,Substituted,2023-07-14,31659CA3-1F11-EE11-8F6C-001DD8094692
 SO2023-0001872,Zoning Reclassification Map No. 7-G at 1354 W Diversey Pkwy - App No. 22136,Amended,2023-07-14,31659CA3-1F11-EE11-8F6C-001DD8094692
@@ -256,4 +256,6 @@ SO2023-0001909,Zoning Reclassification Map No. 10-F at 4005 S Dearborn St - App 
 SO2023-0002196,"Exemption from physical barrier requirement for commercial driveway alley access for AP Property Development, Inc.",Substituted,2023-07-25,F4F127B1-B515-EE11-8F6D-001DD806F88B
 SO2023-0002851,Amendment of Municipal Code Section 10-8-180 regarding responsibilities for removal of snow and ice from public way and establishment of Chicago Plow the Sidewalks Pilot Program,Substituted,2023-07-14,6B59C122-7625-EE11-9CBD-001DD804E11C
 SO2023-0002867,Redevelopment agreement with and provision of eligible tax increment financing (TIF) assistance to BR Congress Owner LLC and Congress Theater NFP for renovation of Congress Theater facility at 2135 N Milwaukee Ave,Substituted,2023-07-14,9B9574E7-8025-EE11-9CBD-001DD804E11C
+SO2023-0005140,"Annual Appropriation Ordinance Year 2024, as amended",Amended,2023-11-07,C69F2CBA-3B68-EE11-9AE6-001DD80977D6
+SO2023-0005140,"Annual Appropriation Ordinance Year 2024, as amended",Substituted,2023-11-21,C69F2CBA-3B68-EE11-9AE6-001DD80977D6
 SR2023-0001267,Expression of solidarity with International Brotherhood of Teamsters for fair contract negotiations with United Parcel Service,Substituted,2023-07-14,EF07F79D-5D10-EE11-8F6C-001DD806D641
