@@ -2,6 +2,7 @@ identifier,title,introduction_date,earliest_action_date,matter_id,problem
 A2023-0001212,Appointment of Annette Guzman as Budget Director,2023-06-21,2023-05-24,AAC16AEC-3610-EE11-8F6C-001DD806D641,introduction after other action
 CL2023-0001225,Various small claims,2023-06-21,2023-06-14,CE717A72-4410-EE11-8F6C-001DD806D3F2,introduction after other action
 CL2023-0003511,"Damage to property claim for Flores, Lissette",2023-07-19,2022-10-26,D08E5A0D-A845-EE11-BE6D-001DD80974AF,introduction after other action
+CL2023-0003515,"Damage to property claim for Gomez, Gissel",2023-07-19,2022-07-20,15D8D134-AA45-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003517,"Damage to vehicle claim for Acosta, Maria L.",2023-07-19,2022-04-27,7E7AFF4A-AB45-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003518,"Damage to vehicle claim for Zaki, Aldawoud",2023-07-19,2023-04-19,EFD53D00-AC45-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003519,"Damage to vehicle - pothole claim for Anderson, Mark M.",2023-07-19,2023-04-19,DA13FEAE-AC45-EE11-BE6D-001DD80974AF,introduction after other action
@@ -141,7 +142,6 @@ CL2023-0003681,"Damage to vehicle - pothole claim for Wood, Kristin",2023-06-21,
 CL2023-0003682,"Damage to vehicle - pothole claim for Fraund, Tod F.",2023-06-21,2023-01-18,8516AAB7-7E46-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003683,"Damage to vehicle - pothole claim for Geisheker, Adam J.",2023-06-21,2022-04-27,81E5991D-7F46-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003684,"Damage to vehicle - pothole claim for Wulfsohn, Curtis",2023-06-21,2023-03-15,4CE59765-7F46-EE11-BE6D-001DD80974AF,introduction after other action
-CL2023-0003685,"Damage to vehicle claim for Gomez, Gissel",2023-06-21,2022-07-20,4DEE858F-7F46-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003686,"Damage to vehicle - pothole claim for Zampa, David",2023-06-21,2023-04-19,F91A80DD-7F46-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003687,"Damage to vehicle - pothole claim for Gordon, Dana B.",2023-06-21,2022-03-23,354B7A01-8046-EE11-BE6D-001DD80974AF,introduction after other action
 CL2023-0003689,"Damage to vehicle claim for Conroy, Brooke and Allstate Ins.",2023-06-21,2022-06-22,FF6D936D-8046-EE11-BE6D-001DD80974AF,introduction after other action
@@ -237,6 +237,11 @@ CL2023-0004116,Various small claims,2023-09-14,2023-09-11,93EE9C00-9851-EE11-BE6
 CL2023-0004911,Various small claims,2023-10-04,2023-10-02,49D692AC-5C61-EE11-BE6E-001DD80520D0,introduction after other action
 CL2023-0005636,Various small claims,2023-11-01,2023-10-31,0CB9A8BD-2677-EE11-9AE5-001DD804D22B,introduction after other action
 CL2023-0005924,Various small claims,2023-11-15,2023-11-14,33443849-2483-EE11-8178-001DD83091CA,introduction after other action
+CL2023-0006154,"Damage to vehicle - pothole claim for Hunt, Eva C.",2023-12-13,2023-12-06,1EBF5180-4394-EE11-8178-001DD8307369,introduction after other action
+CL2023-0006155,"Damage to vehicle claim for Peralta, Valeria",2023-12-13,2023-12-06,05886C71-4A94-EE11-8178-001DD8307226,introduction after other action
+CL2023-0006158,"Damage to vehicle - pothole claim for Amechi, Mauriell H.",2023-12-13,2023-12-06,2B8FE86F-5294-EE11-8178-001DD8307226,introduction after other action
+CL2023-0006159,"Damage to vehicle - pothole claim for Zenkovic, Adnan",2023-12-13,2023-12-06,1C4B9AA0-5394-EE11-8178-001DD8307226,introduction after other action
+CL2023-0006160,"Damage to vehicle claim for Barr, John H.",2023-12-13,2023-12-06,B9A47F67-5494-EE11-8178-001DD8307226,introduction after other action
 O2023-0001204,Amendment of Municipal Code Section 4-60-023 (49.29) to allow additional package goods licenses on portion(s) of N Clark St,2023-06-21,2023-06-15,2C67FBFB-8C0F-EE11-8F6C-001DD806D641,introduction after other action
 O2023-0001294,"Restructuring agreement with Renaissance Partners Limited Partnership, Renaissance Partners Corporation for additional financial assistance or modification through multi-family grant and Tax Increment Financing (TIF) funds for repairs at 3757-3763 S Wabash Ave",2023-06-21,2023-04-19,FE8AFD32-6F10-EE11-8F6C-001DD806D2E1,introduction after other action
 O2023-0001296,"Redevelopment agreement with DL3 Thrive Exchange LIHTC South LLC to acquire property generally located at southeast corner of E 79th St and S Exchange Ave for development of low-income residential, rental units, commercial space and proposed federally-funded health center",2023-06-21,2023-04-19,71E084AF-7010-EE11-8F6C-001DD806D2E1,introduction after other action
@@ -553,6 +558,10 @@ O2023-0006037,"Extension of term, amendment of 2023 budget, 2023 tax levy, 2024 
 O2023-0006038,"Enlargement of boundaries, 2023 tax levy, 2024 budget and service provider agreement for Special Service Area No. 44, 103rd Street-Beverly",2023-11-15,2023-11-13,3124650D-5C85-EE11-8178-001DD830945B,introduction after other action
 O2023-0006040,"Establishment of Special Service Area No. 61-2023, Hyde Park, approval of 2024 budget and imposition of 2023 tax rate and levy",2023-11-15,2023-11-13,4D38C783-5E85-EE11-8178-001DD830945B,introduction after other action
 O2023-0006041,"Extension of term, 2023 tax levy, 2024 budget and service provider agreement for Special Service Area No. 69, 95th/Ashland",2023-11-15,2023-11-13,B7D36752-5F85-EE11-8178-001DD830945B,introduction after other action
+O2023-0006167,Zoning Reclassification Map No. 7-J at 3652-3658 W Wrightwood Ave - App No. 22303T1,2023-12-13,2023-12-06,ED3D4307-6A94-EE11-8178-001DD8307369,introduction after other action
+O2023-0006171,Zoning Reclassification Map No. 4-H at 2149-2159 S Paulina St/1658 W Cermak Rd - App No. 22304,2023-12-13,2023-12-06,99226116-7094-EE11-8178-001DD8307369,introduction after other action
+O2023-0006173,Zoning Reclassification Map No. 10-F at 4161-4193 S Halsted St - App No. 22305,2023-12-13,2023-12-06,4E676D6A-7994-EE11-8178-001DD8307369,introduction after other action
+O2023-0006180,Zoning Reclassification Map No. 7-J at 3120 N Kedzie Ave - App No. 22306T1,2023-12-13,2023-12-06,59B15880-7E94-EE11-8178-001DD8307369,introduction after other action
 Or2023-0001224,Payment of various small claims,2023-06-21,2023-06-14,0C7995DC-4310-EE11-8F6C-001DD806D3F2,introduction after other action
 Or2023-0001331,"Settlement agreement regarding case of Lana Triplett v. Adam Corona and City of Chicago, 2019 L 7771 (Cir. Ct. of Cook County, Law Division)",2023-06-21,2023-06-14,5E49BAE3-7B10-EE11-8F6C-001DD806D2E1,introduction after other action
 Or2023-0001335,"Settlement agreement regarding case of Joshua Habasek-Bonelli v. City of Chicago, No. 22 cv 3668",2023-06-21,2023-06-14,48E06C8B-7C10-EE11-8F6C-001DD806D2E1,introduction after other action

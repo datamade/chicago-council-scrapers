@@ -1,14 +1,13 @@
 body,event_date,agenda_item_order,identifier,title,matter_id
 City Council,2021-06-23,37,SO2021-2592A,"Provision of financial relief to businesses under Chi Biz Strong initiative, establishment of related licensing and regulatory measures, and associated amendment of Municipal Code Titles 2, 3, 4, 8, 9, and 10 in part (See SO2021-2592B for Article VII, Expedite Signs and Permits at 10-28-010, 10-28-015, 10-28-820)",DE82770A-E20D-ED11-82E3-001DD80693B4
 City Council,2023-01-18,127,SO2023-0002200,"Amendment of Municipal Code Chapters 4-8 and 17-9 regarding licensing of urban farms and community gardens, and modifying Section 7-38-142 concerning produce merchants",7ED00C2B-DF15-EE11-8F6D-001DD806F88B
-City Council,2023-07-19,101,CL2023-0003709,"Damage to vehicle - pothole claim for Janowski, Jennifer A.",A60121D6-8446-EE11-BE6D-001DD80974AF
-City Council,2023-07-19,148,CL2023-0003685,"Damage to vehicle claim for Gomez, Gissel",4DEE858F-7F46-EE11-BE6D-001DD80974AF
-City Council,2023-07-19,163,Or2023-0002854,Issuance of permits for sign(s)/signboard(s) at 352 E Illinois St - Permit No. 101022149,87CB12EB-7825-EE11-9CBD-001DD804E555
-City Council,2023-07-19,164,Or2023-0002839,Issuance of permits for sign(s)/signboard(s) at 352 E Illinois St - Permit No. 101022150,AC06AFF0-6F25-EE11-9CBD-001DD804E555
-City Council,2023-07-19,202,SR2023-0001267,Expression of solidarity with International Brotherhood of Teamsters for fair contract negotiations with United Parcel Service,EF07F79D-5D10-EE11-8F6C-001DD806D641
-City Council,2023-07-19,204,R2023-0001022,Call for hearing(s) each month on City's plans and processes in response to migrant and refugee arrivals to Chicago,8F4109FB-A209-EE11-8F6D-001DD809B7F1
-City Council,2023-07-19,221,R2023-0002224,Support for renewal of First Class 6(b) and Second Class 6(b) tax incentives for property at 4550 S Packers Ave,8CC0E88C-6017-EE11-8F6D-001DD806F9D9
-City Council,2023-07-19,244,A2023-0001269,"Reappointment of Lorraine J. Rieff-Liakouras as member of Special Service Area No. 16, Greektown/Halsted Commission",266E1A83-5F10-EE11-8F6C-001DD806D2E1
+City Council,2023-06-21,63,CL2023-0003515,"Damage to property claim for Gomez, Gissel",15D8D134-AA45-EE11-BE6D-001DD80974AF
+City Council,2023-07-19,161,Or2023-0002854,Issuance of permits for sign(s)/signboard(s) at 352 E Illinois St - Permit No. 101022149,87CB12EB-7825-EE11-9CBD-001DD804E555
+City Council,2023-07-19,162,Or2023-0002839,Issuance of permits for sign(s)/signboard(s) at 352 E Illinois St - Permit No. 101022150,AC06AFF0-6F25-EE11-9CBD-001DD804E555
+City Council,2023-07-19,200,SR2023-0001267,Expression of solidarity with International Brotherhood of Teamsters for fair contract negotiations with United Parcel Service,EF07F79D-5D10-EE11-8F6C-001DD806D641
+City Council,2023-07-19,202,R2023-0001022,Call for hearing(s) each month on City's plans and processes in response to migrant and refugee arrivals to Chicago,8F4109FB-A209-EE11-8F6D-001DD809B7F1
+City Council,2023-07-19,219,R2023-0002224,Support for renewal of First Class 6(b) and Second Class 6(b) tax incentives for property at 4550 S Packers Ave,8CC0E88C-6017-EE11-8F6D-001DD806F9D9
+City Council,2023-07-19,242,A2023-0001269,"Reappointment of Lorraine J. Rieff-Liakouras as member of Special Service Area No. 16, Greektown/Halsted Commission",266E1A83-5F10-EE11-8F6C-001DD806D2E1
 City Council,2023-09-13,0,O2023-0002722,Amendment of Municipal Code Sections 4-60-022 and 4-60-023 to allow additional alcoholic liquor and package goods licenses on portion(s) of W Wilson Ave,99D70EE3-1E20-EE11-8F6C-001DD809B9F5
 City Council,2023-09-13,1,O2023-0002721,Amendment of Municipal Code Section 4-60-022 (47.21) to allow additional alcoholic liquor licenses on portion(s) of N Damen Ave,095AB809-1E20-EE11-8F6C-001DD809B9F5
 City Council,2023-09-13,2,O2023-0002943,Amendment of Municipal Code Section 4-60-022 (27.16) to allow additional alcoholic liquor licenses on portion(s) of W Hill St,946D64BF-5026-EE11-9965-001DD804E9A5
@@ -87,7 +86,6 @@ City Council,2023-09-14,291,O2023-0002768,Handicapped Parking Permit No. 131486,
 City Council,2023-09-14,292,O2023-0002708,Handicapped Parking Permit No. 130878,4EBFD270-0820-EE11-8F6C-001DD809B9F5
 City Council,2023-09-14,293,O2023-0002750,Handicapped Parking Permit No. 131163,BAF8171A-E820-EE11-8F6C-001DD809B9F5
 City Council,2023-09-14,294,O2023-0002749,Handicapped Parking Permit No. 130927,DF47B3D5-E620-EE11-8F6C-001DD809B9F5
-City Council,2023-09-14,295,SO2023-0001253,"Amendment of Municipal Code Title 9 by adding new Chapter 9-116 entitled ""Traffic Crash Review and Analysis""",E51C12E9-5710-EE11-8F6C-001DD806D641
 City Council,2023-09-14,297,O2023-0002692,Handicapped Parking Permit No. 131118,169F1707-601F-EE11-8F6C-001DD809BD75
 City Council,2023-09-14,298,O2023-0002691,Handicapped Parking Permit No. 132217,2D21EDFE-5E1F-EE11-8F6C-001DD809BD75
 City Council,2023-09-14,299,O2023-0004208,Vehicle weight limitation at N Campbell Ave from W Addison St to W Bradley Pl - 5 tons,136F45AA-1453-EE11-BE6E-001DD8097692
@@ -147,7 +145,6 @@ City Council,2023-09-14,76,O2023-0002760,Zoning Reclassification Map No. 16-E at
 City Council,2023-09-14,77,SO2023-0003865,Zoning Reclassification Map No. 12-I at 2614 W 48th St and 4743 S Talman Ave - App No. 22170T1,AA451D70-3148-EE11-BE6D-001DD8097665
 City Council,2023-09-14,78,SO2023-0003866,"Zoning Reclassification Map No. 14-H at 1701-1725 W 61st St, 6100-6158 S Paulina St, 1700-1724 W 62nd St and 6101-6159 S Hermitage Ave - App No. 20374",6920EA8A-3248-EE11-BE6D-001DD8097665
 City Council,2023-09-14,79,O2023-0002816,Zoning Reclassification Map No. 6-F at 2739 S Shields Ave - App No. 22234,3A5CC953-CB24-EE11-9CBD-001DD804E11C
-City Council,2023-09-14,81,SO2023-0002193,Zoning Reclassification Map No. 5-F at 1633-1649 N Halsted St - App No. 22205,C42E748C-0E15-EE11-8F6D-001DD806F9D9
 City Council,2023-09-14,82,SO2023-0002826,Zoning Reclassification Map No. 1-G at 1342 W Ohio St - App No. 22236T1,36BD58D3-DC24-EE11-9CBD-001DD804E11C
 City Council,2023-09-14,83,O2023-0003858,Zoning Reclassification Map Nos. 20-K and 20-J at 8658 S Pulaski Rd and 3841-3987 W Columbus Ave - App No. A8828,1A6B79E1-2A48-EE11-BE6D-001DD8097665
 City Council,2023-09-14,84,O2023-0003855,Zoning Reclassification Map No. 20-J at 3323-3745 W Columbus Ave - App No. A8827,DFB950DC-2748-EE11-BE6D-001DD8097F18
@@ -155,9 +152,17 @@ City Council,2023-09-14,86,Or2023-0002921,Historical landmark fee waiver for pro
 City Council,2023-09-14,87,Or2023-0002956,Historical landmark fee waiver for property at 4543 S Ellis Ave,FF1928FC-5326-EE11-9965-001DD804E9A5
 City Council,2023-09-14,88,SO2023-0002910,"Amendment of Municipal Code Chapters 13-72, 17-10, 17-13 and 17-17 regarding electric vehicle supply equipment",881C1044-A925-EE11-9CBD-001DD804E144
 City Council,2023-10-04,111,A2023-0001263,"Appointment of Alejandra Flores as member of Special Service Area No. 3, Southwest Business Growth Area Commission",758FDD8F-5B10-EE11-8F6C-001DD806D3F2
-City Council,2023-10-04,113,A2023-0004207,"Reappointment of Elizabeth B. Fuld as member of SSA No. 18, North Halsted Commission",ECCA9B87-1453-EE11-BE6E-001DD8097665
 City Council,2023-10-04,119,A2023-0004196,"Appointment of Timothy Klump as member of Special Service Area No. 18, North Halsted Commission",898120BE-0C53-EE11-BE6E-001DD8097F7D
 City Council,2023-10-04,47,R2023-0002940,"Call for Chicago institutions of higher learning to establish department or office to aggressively work to increase Black student recruitment, enrollment and scholarship opportunities",D9C8FE94-4E26-EE11-9965-001DD804E9A5
+City Council,2023-11-15,1,O2023-0005133,Exemption from physical barrier requirement for commercial driveway alley access for Gerber Collision,F3B880AD-AF67-EE11-8DEF-001DD80971B2
+City Council,2023-11-15,14,SO2023-0005699,Amendment of Municipal Code Section 4-60-023 (30.66) to allow additional package goods licenses on portion(s) of W Belmont Ave and on N Laramie Ave,BE7757E4-4378-EE11-9AE5-001DD804D22B
+City Council,2023-11-15,53,A2023-0005714,"Reappointment of William F. Eager as member of Special Service Area No. 47, 47th Street and Cottage Grove Commission",E6B1E091-BF78-EE11-9AE5-001DD804D077
+City Council,2023-11-15,56,A2023-0005712,"Reappointment of Kaitlyn D. Hurley as member of Special Service Area No. 27, West Lakeview Commission",71AF0404-BF78-EE11-9AE5-001DD804D077
+City Council,2023-11-15,58,A2023-0005711,"Reappointment of Claudia P. Rodriguez as member of Special Service Area No. 25, Little Village Commission",7DD56426-BE78-EE11-9AE5-001DD804D077
+City Council,2023-11-15,60,A2023-0004961,"Appointment of Davonna M. Brown as member of Special Service Area No. 50, Calumet Heights/Avalon Commission",E3BF9400-CC62-EE11-BE6E-001DD80520D0
+City Council,2023-11-15,61,A2023-0004960,"Reappointment of Karl D. Sullivan as member of Special Service Area No. 34, Uptown Commission",DD74098C-CA62-EE11-BE6E-001DD80520D0
+City Council,2023-11-15,62,A2023-0004959,"Reappointment of Terry N. Tuohy as member of Special Service Area No. 34, Uptown Commission",710FA987-C962-EE11-BE6E-001DD80520D0
+City Council,2023-11-15,64,A2023-0004958,"Reappointment of Matthew L. Ruffi as member of Special Service Area No. 34, Uptown Commission",8953A415-C962-EE11-BE6E-001DD80520D0
 Committee on Committees and Rules,2023-03-30,23,SO2023-0002867,Redevelopment agreement with and provision of eligible tax increment financing (TIF) assistance to BR Congress Owner LLC and Congress Theater NFP for renovation of Congress Theater facility at 2135 N Milwaukee Ave,9B9574E7-8025-EE11-9CBD-001DD804E11C
 Committee on Committees and Rules,2023-04-18,1,SO2023-0002867,Redevelopment agreement with and provision of eligible tax increment financing (TIF) assistance to BR Congress Owner LLC and Congress Theater NFP for renovation of Congress Theater facility at 2135 N Milwaukee Ave,9B9574E7-8025-EE11-9CBD-001DD804E11C
 Committee on Housing and Real Estate,2023-04-11,0,O2023-0002194,Adopt-a-Landmark grant funding agreement with Greenstone United Methodist Church for preservation project at 11211 S St. Lawrence Ave,017E5ED6-0E15-EE11-8F6D-001DD806F9D9
