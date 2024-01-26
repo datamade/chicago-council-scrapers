@@ -1,3 +1,11 @@
+add_topics : topics_added.csv
+	cat $< | psql $$DATABASE_URL -c "`cat scripts/update_topics.sql`"
+
+topics_added.csv: needs_topics.csv
+	cat $< | python scripts/topics.py > $@
+
+needs_topics.csv :
+	psql $$DATABASE_URL -f scripts/needs_topics.sql > $@
 
 data_issues.xlsx : missing_organization_on_actions.csv missing_bill_text_pdfs.csv bad_introductions.csv dupe_actions.csv bad_action_date.csv bad_agenda_action.csv
 	python scripts/to_excel.py $^ $@
