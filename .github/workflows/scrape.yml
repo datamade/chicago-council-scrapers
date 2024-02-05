@@ -81,7 +81,7 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: psql $(echo $DATABASE_URL) -f scripts/merge_memberships.sql
-      - name: merge terms
+      - name: add topics
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: make add_topics

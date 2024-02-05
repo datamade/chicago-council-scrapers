@@ -1,9 +1,11 @@
 add_topics : topics_added.csv
 	cat $< | psql $$DATABASE_URL -c "`cat scripts/update_topics.sql`"
 
+.INTERMEDIATE: topics_added.csv
 topics_added.csv: needs_topics.csv
 	cat $< | python scripts/topics.py > $@
 
+.INTERMEDIATE : needs_topics.csv
 needs_topics.csv :
 	psql $$DATABASE_URL -f scripts/needs_topics.sql > $@
 
