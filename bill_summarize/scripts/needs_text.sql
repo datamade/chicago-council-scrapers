@@ -4,7 +4,6 @@ COPY (
         url
     FROM
         opencivicdata_billversionlink
-
         INNER JOIN opencivicdata_billversion ON opencivicdata_billversion.id = version_id
         INNER JOIN opencivicdata_bill ON opencivicdata_bill.id = bill_id
         INNER JOIN opencivicdata_legislativesession ON opencivicdata_legislativesession.id = legislative_session_id
