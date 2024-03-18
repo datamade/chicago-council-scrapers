@@ -13,6 +13,3 @@ COPY (
         AND opencivicdata_bill.extras -> 'key_legislation' = 'true'
         AND not opencivicdata_bill.extras ? 'summary')
 TO STDOUT WITH CSV HEADER;
-
-
-

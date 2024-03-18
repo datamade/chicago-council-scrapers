@@ -32,4 +32,3 @@ UPDATE opencivicdata_bill SET extras = extras || summary
 FROM summaries WHERE opencivicdata_bill.id = bill_id;
 
 COMMIT;
-
