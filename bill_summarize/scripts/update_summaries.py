@@ -12,6 +12,7 @@ with open(original_file) as f:
 
 writer = csv.DictWriter(sys.stdout, fieldnames=["filename", "summary"])
 writer.writeheader()
+
 with open(original_file) as f:
     reader = csv.DictReader(f)
     for row in reader:
