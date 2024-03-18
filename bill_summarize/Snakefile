@@ -95,6 +95,3 @@ rule download_pdf:
         """
         wget "https://occprodstoragev1.blob.core.usgovcloudapi.net/matterattachmentspublic/{output}"
         """
-
-
-
