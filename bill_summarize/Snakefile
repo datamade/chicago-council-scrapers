@@ -1,6 +1,7 @@
 import csv
 import pathlib
 
+
 def summaries(wildcards):
 
     with checkpoints.needs_text.get(**wildcards).output[0].open() as f:
