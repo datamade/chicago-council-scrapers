@@ -26,7 +26,8 @@ jobs:
       - name: run pipeline
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
-        run: make
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: make -j 1
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
