@@ -1,0 +1,35 @@
+
+name: Update Summaires
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+
+jobs:
+  # This workflow contains a single job called "build"
+  summaries:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./bill_summarize    
+    steps:
+      - uses: actions/checkout@v3
+      - name: install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: run pipeline
+        run: make
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: summaries.csv
+          message: 'update summary'
+        
+
+
+  
