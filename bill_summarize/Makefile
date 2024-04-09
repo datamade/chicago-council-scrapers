@@ -9,6 +9,6 @@ summaries.csv : new_summaries.csv
 	python scripts/update_summaries.py $@ $< > $@ 
 
 new_summaries.csv : 
-	- snakemake --cores 8 --keep-going 
+	- snakemake --cores 1 --keep-going 
 	python scripts/create_summary_csv.py summaries/*.summary > $@
 
