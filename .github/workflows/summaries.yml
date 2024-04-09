@@ -1,5 +1,5 @@
 
-name: Update Summaires
+name: Update Summaries
 
 # Controls when the workflow will run
 on:
@@ -23,6 +23,8 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
       - name: run pipeline
+        env:
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: make
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
