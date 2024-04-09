@@ -163,7 +163,9 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: make -j 1
+        run: |
+          make updated_summaries_db
+          make summaries.csv
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
