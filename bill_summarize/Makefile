@@ -1,7 +1,7 @@
 SNAKE_CORES=1
 
 .PHONY: all
-all : updated_summaries_db summaries.csv
+all : update_summaries_db summaries.csv
 
 .PHONY: updated_summaries_db
 update_summaries_db: new_summaries.csv

@@ -2,3 +2,4 @@ snakemake==7.32.4
 PuLP==2.3.1
 ttok
 llm
+https://github.com/datamade/llm-text-summarization/archive/refs/heads/main.zip

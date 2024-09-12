@@ -34,7 +34,7 @@ rule summarize:
         threads=1
     shell:
         """
-	ttok < {input} -t 500 | llm -m 3.5 -s "Summarize this legislation in 30 words" > {output}
+	llm-summarize {input} {output}
         """
 
 rule to_text_docx:
@@ -51,10 +51,11 @@ rule to_text_docx:
 def aggregate_texts(wildcards):
 
     image_directory = pathlib.Path(checkpoints.to_images.get(**wildcards).output[0])
-    files = expand(
-        f"text/{wildcards.source_name}/page-{{page_num}}.txt",
-        page_num=glob_wildcards(image_directory / "page-{page_num}.ppm").page_num,
-    )
+    page_nums = glob_wildcards(image_directory / "page-{page_num}.ppm").page_num
+    files = expand("text/{source_name}/page-{page_num}.txt",
+                   source_name = [wildcards.source_name],
+                   page_num=page_nums)
+
     return sorted(files)[:10]
 
         
