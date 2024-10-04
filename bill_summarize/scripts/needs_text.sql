@@ -10,5 +10,6 @@ COPY (
     WHERE
         opencivicdata_legislativesession.identifier = '2023'
         AND opencivicdata_bill.extras -> 'key_legislation' = 'true'
-        AND not opencivicdata_bill.extras ? 'summary')
+        AND not opencivicdata_bill.extras ? 'summary'
+	)
 TO STDOUT WITH CSV HEADER;
