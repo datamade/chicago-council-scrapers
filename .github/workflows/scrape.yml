@@ -92,26 +92,17 @@ jobs:
     needs: scrape
     steps:
       - name: update search index
-        uses: michcio1234/heroku-run@0.1.1
-        with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_email: ${{ secrets.HEROKU_ACCOUNT }}
-          heroku_app_name: ${{ secrets.HEROKU_APP }}
-          command: python manage.py update_index --batch-size=50 --age=1
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku run -a chi-councilmatic-production python manage.py update_index --batch-size=50 --age=1
       - name: update stats
-        uses: michcio1234/heroku-run@0.1.1
-        with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_email: ${{ secrets.HEROKU_ACCOUNT }}
-          heroku_app_name: ${{ secrets.HEROKU_APP }}
-          command: python manage.py populate_person_statistics
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku run -a chi-councilmatic-production python manage.py populate_person_statistics
       - name: clear cache
-        uses: michcio1234/heroku-run@0.1.1
-        with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_email: ${{ secrets.HEROKU_ACCOUNT }}
-          heroku_app_name: ${{ secrets.HEROKU_APP }}
-          command: python manage.py clear_cache
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku run -a chi-councilmatic-production python manage.py clear_cache
 
   export:
     # The type of runner that the job will run on
