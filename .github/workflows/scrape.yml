@@ -89,7 +89,7 @@ jobs:
         uses: gautamkrishnar/keepalive-workflow@v1
   index-and-stats:
     runs-on: ubuntu-latest
-    # needs: scrape
+    needs: scrape
     steps:
       - name: install heroku
         run: npm install -g heroku
