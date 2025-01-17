@@ -56,7 +56,7 @@ def aggregate_texts(wildcards):
                    source_name = [wildcards.source_name],
                    page_num=page_nums)
 
-    return sorted(files)[:10]
+    return sorted(files)
 
         
 rule to_text_pdf:
@@ -86,7 +86,7 @@ checkpoint to_images:
     shell:
         """
         mkdir {output}
-        pdftoppm -r 150 {input} {output}/page
+        pdftoppm -r 150 -l 10 {input} {output}/page
         """
         
 rule download_pdf:
