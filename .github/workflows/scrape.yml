@@ -96,15 +96,15 @@ jobs:
       - name: update search index
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: heroku run -a chi-councilmatic-production python manage.py update_index --batch-size=50 --age=1
+        run: heroku run -a chi-councilmatic-production "python manage.py update_index --batch-size=50 --age=1"
       - name: update stats
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: heroku run -a chi-councilmatic-production python manage.py populate_person_statistics
+        run: heroku run -a chi-councilmatic-production "python manage.py populate_person_statistics"
       - name: clear cache
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: heroku run -a chi-councilmatic-production python manage.py clear_cache
+        run: heroku run -a chi-councilmatic-production "python manage.py clear_cache"
 
   export:
     # The type of runner that the job will run on
