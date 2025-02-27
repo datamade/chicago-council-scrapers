@@ -7,24 +7,13 @@ from sentry_sdk.integrations.logging import LoggingIntegration
 
 def before_send(event, hint):
     """
-    Filter out ScrapeError events for windowed scrapes
+    Filter out UnresolvedIdError events
     """
-    # Skip events that don't have exceptions (like warnings)
-    if 'exception' not in event:
-        return None
-    
-    # Check for ScrapeError from empty hourly scrapes
     exception_values = event.get('exception', {}).get('values', [])
-    print(exception_values)
     for value in exception_values:
         if value.get('type') == 'UnresolvedIdError':
-            # Check if it's a window scrape from the command line args
-            extra = event.get('extra', {})
-            arg_v = extra.get('sys.argv')
-            if arg_v and any('window' in arg for arg in arg_v):
-                return None
+            return None
     
-    # Allow all other events through
     return event
 
 
