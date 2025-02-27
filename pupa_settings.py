@@ -5,11 +5,24 @@ from sentry_sdk.integrations.django import DjangoIntegration
 from sentry_sdk.integrations.logging import LoggingIntegration
 
 
+def before_send(event, hint):
+    """
+    Filter out ScrapeError events for windowed scrapes
+    """
+    print(hint)
+    log_record = hint.get("log_record")
+    if log_record and hasattr(log_record, "name"):
+        if log_record.name == "ScrapeError":
+            return None
+    return event
+
+
 sentry_logging = LoggingIntegration(level=logging.INFO, event_level=logging.FATAL)
 
 sentry_sdk.init(
     dsn=os.getenv("SENTRY_DSN", "dev"),
     integrations=[DjangoIntegration(), sentry_logging],
+    before_send=before_send,
 )
 
 STATIC_ROOT = '/tmp'
