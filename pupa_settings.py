@@ -10,9 +10,11 @@ def before_send(event, hint):
     Filter out UnresolvedIdError events
     """
     exception_values = event.get('exception', {}).get('values', [])
-    for value in exception_values:
-        if value.get('type') == 'UnresolvedIdError':
-            return None
+    for exception in exception_values:
+        for value in exception:
+            print(value)
+            if value.get('type') == 'UnresolvedIdError':
+                return None
     
     return event
 
