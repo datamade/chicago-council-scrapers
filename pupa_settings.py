@@ -1,28 +1,16 @@
+import logging
 import os
-from raven.contrib.django.client import DjangoClient
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+from sentry_sdk.integrations.logging import LoggingIntegration
 
-class OCDClient(DjangoClient):
 
-    def send(self, **kwargs):
+sentry_logging = LoggingIntegration(level=logging.INFO, event_level=logging.FATAL)
 
-        # Warnings do not have exceptions
-        if 'exception' not in kwargs:
-            return super().send(**kwargs)
-
-        # Ignore ScrapeError from empty hourly scrapes
-        for value in kwargs['exception'].get('values', []):
-
-            if value.get('type') == 'ScrapeError':
-
-                extra = kwargs.get('extra', {})
-                arg_v = extra.get('sys.argv')
-
-                if arg_v:
-                    for arg in arg_v:
-                        if 'window' in arg:
-                            return None
-
-        return super().send(**kwargs)
+sentry_sdk.init(
+    dsn=os.getenv("SENTRY_DSN", "dev"),
+    integrations=[DjangoIntegration(), sentry_logging],
+)
 
 STATIC_ROOT = '/tmp'
 DATABASE_URL = os.environ.get('DATABASE_URL', 'postgis://postgres:@localhost:32005/opencivicdata')
@@ -50,25 +38,11 @@ LOGGING = {
                     'class': 'pupa.ext.ansistrm.ColorizingStreamHandler',
                     'formatter': 'standard'
                    },
-        'sentry': {
-            'level': 'CRITICAL',
-            'class': 'raven.handlers.logging.SentryHandler',
-            'client_cls': OCDClient,
-            'dsn': os.environ.get('SENTRY_DSN'),
-            },
     },
-    'loggers': {
-        '': {
-            'handlers': ['default', 'sentry'], 'level': 'DEBUG', 'propagate': True
-        },
-        'scrapelib': {
-            'handlers': ['default'], 'level': 'INFO', 'propagate': False
-        },
-        'requests': {
-            'handlers': ['default'], 'level': 'WARN', 'propagate': False
-        },
-        'boto': {
-            'handlers': ['default', 'sentry'], 'level': 'WARN', 'propagate': False
-        },
+    "loggers": {
+        "": {"handlers": ["default"], "level": "DEBUG", "propagate": True},
+        "scrapelib": {"handlers": ["default"], "level": "INFO", "propagate": False},
+        "requests": {"handlers": ["default"], "level": "WARN", "propagate": False},
+        "boto": {"handlers": ["default"], "level": "WARN", "propagate": False},
     },
 }

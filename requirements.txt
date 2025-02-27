@@ -2,6 +2,6 @@
 https://github.com/opencivicdata/scrapers-us-municipal/archive/refs/heads/chicago_comprehensive.zip
 https://github.com/datamade/django-councilmatic/archive/refs/heads/resilient_slug.zip
 https://github.com/jamesturk/scrapelib/archive/refs/heads/main.zip
-raven==6.10
+sentry-sdk
 https://github.com/opencivicdata/pupa/archive/refs/heads/forest.zip
 sqlalchemy<2.0
