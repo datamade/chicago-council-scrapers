@@ -11,8 +11,8 @@ def before_send(event, hint):
     """
     exception_values = event.get('exception', {}).get('values', [])
     for exception in exception_values:
+        print(exception)
         for value in exception:
-            print(value)
             if value.get('type') == 'UnresolvedIdError':
                 return None
     
