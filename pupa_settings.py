@@ -9,11 +9,21 @@ def before_send(event, hint):
     """
     Filter out ScrapeError events for windowed scrapes
     """
-    print(hint)
-    log_record = hint.get("log_record")
-    if log_record and hasattr(log_record, "name"):
-        if log_record.name == "ScrapeError":
-            return None
+    # Skip events that don't have exceptions (like warnings)
+    if 'exception' not in event:
+        return None
+    
+    # Check for ScrapeError from empty hourly scrapes
+    exception_values = event.get('exception', {}).get('values', [])
+    for value in exception_values:
+        if value.get('type') == 'ScrapeError':
+            # Check if it's a window scrape from the command line args
+            extra = event.get('extra', {})
+            arg_v = extra.get('sys.argv')
+            if arg_v and any('window' in arg for arg in arg_v):
+                return None
+    
+    # Allow all other events through
     return event
 
 
