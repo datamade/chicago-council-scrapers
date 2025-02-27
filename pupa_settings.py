@@ -15,8 +15,9 @@ def before_send(event, hint):
     
     # Check for ScrapeError from empty hourly scrapes
     exception_values = event.get('exception', {}).get('values', [])
+    print(exception_values)
     for value in exception_values:
-        if value.get('type') == 'ScrapeError':
+        if value.get('type') == 'UnresolvedIdError':
             # Check if it's a window scrape from the command line args
             extra = event.get('extra', {})
             arg_v = extra.get('sys.argv')
