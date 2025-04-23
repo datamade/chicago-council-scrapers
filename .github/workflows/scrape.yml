@@ -85,8 +85,7 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STRING }}
         run: make add_topics
-      - name: keepalive
-        uses: gautamkrishnar/keepalive-workflow@v1
+
   index-and-stats:
     runs-on: ubuntu-latest
     needs: scrape
@@ -165,7 +164,11 @@ jobs:
         with:
           add: bill_summarize/summaries.csv
           message: 'update summary'
-        
 
-
-  
+  workflow-keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1  
