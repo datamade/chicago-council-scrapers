@@ -1,5 +1,5 @@
 # Better handling for loading divisions from specified CSV
-https://github.com/opencivicdata/scrapers-us-municipal/archive/refs/heads/chicago_comprehensive.zip
+https://github.com/opencivicdata/scrapers-us-municipal/archive/refs/heads/master.zip
 https://github.com/datamade/django-councilmatic/archive/refs/heads/resilient_slug.zip
 https://github.com/jamesturk/scrapelib/archive/refs/heads/main.zip
 sentry-sdk
