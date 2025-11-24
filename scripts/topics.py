@@ -247,7 +247,7 @@ def topic_classifier(title):
             "removal and relocation of parking meters",
         )
     ):
-        return tags + ["Non-Routine", "Parking Meters"]
+        return tags + ["Routine", "Parking Meters"]
 
     if title.startswith(
         (
